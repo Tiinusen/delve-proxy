@@ -1,0 +1,7 @@
+{"jsonrpc":"2.0","method":"RPCServer.Command","params":[{"name":"continue"}],"id":1}{"jsonrpc":"2.0","method":"RPCServer.ListGoroutines","params":[],"id":2}
+{"id":2,"result":[],"error":null}
+
+{"id":1,"result":{"Threads":null,"NextInProgress":false,"exited":true,"exitStatus":0,"When":""},"error":null}
+
+{"jsonrpc":"2.0","method":"RPCServer.Command","params":[{"name":"halt"}],"id":3}
+{"id":3,"result":null,"error":"Process 0 has exited with status 0"}
